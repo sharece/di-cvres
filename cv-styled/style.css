@@ -1,0 +1,39 @@
+.header {
+  background-color: rosybrown;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial,
+    sans-serif;
+  flex-direction: column;
+}
+
+.img-wrapper {
+  max-width: 100px;
+}
+
+.headshot {
+  width: 100%;
+}
+
+.title {
+  align-content: space-around;
+}
+
+.title-link {
+  font-weight: bold;
+}
+.skills {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande";
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  max-width: 130px;
+  background: rgb(190, 103, 180);
+  padding: 40px;
+}
